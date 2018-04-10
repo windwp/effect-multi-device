@@ -1,0 +1,34 @@
+{
+  "name": "multi-test",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "latest-createjs": "^1.0.24",
+    "pixi.js": "^4.7.3",
+    "react": "^16.1.0",
+    "react-dom": "^16.1.0",
+    "react-scripts": "1.0.17",
+    "semantic-ui-css": "^2.2.12",
+    "semantic-ui-react": "^0.76.0"
+  },
+  "scripts": {
+    "watch": "tsc -w",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "devDependencies": {
+    "@types/pixi.js": "^4.7.2",
+    "gh-pages": "^1.1.0"
+  },
+  "main": "index.js",
+  "repository": {
+    "url": "https://github.com/windwp/effect-multi-device.git",
+    "type": "git"
+  },
+  "author": "mrtrieu <longtrieu1912@gmail.com>",
+  "license": "MIT"
+}

@@ -1,0 +1,11 @@
+{
+  "typeAcquisition": {
+    "include": [
+      "createjs",
+      "react"
+    ],
+    "exclude": [
+      "node_modules"
+    ]
+  }
+}
