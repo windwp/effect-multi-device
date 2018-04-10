@@ -6,8 +6,6 @@ export class CanvasText extends Component {
   image = null;
   canvas = null;
   shouldComponentUpdate(nextProps, nextState) {
-    console.log('nextProps', nextProps);
-    console.log('nextState', nextState);
     return true;
   }
   componentDidUpdate(prevProps, prevState) {
