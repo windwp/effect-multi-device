@@ -8,7 +8,7 @@ class App extends Component {
 
   data = {
     numberDevice: 3,
-    message: '(づ｡◕‿‿◕｡)づ Hello World ✌.ʕʘ‿ʘʔ.✌        '
+    message: '(づ｡◕‿‿◕｡)づ Hello World ✌.ʕʘ‿ʘʔ.✌         '
   }
 
   listDevice = [];
