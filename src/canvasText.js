@@ -60,7 +60,6 @@ export class CanvasText extends Component {
     config.message = animationData.message;
     config.allDevices = animationData.listDevice;
     config.totalDevice = animationData.totalDevice;
-    // this._stage = new RunningText(this.canvas, config);
     this._stage = new PixilRunning(this.canvas, config);
     this._stage.start();
   }

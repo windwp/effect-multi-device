@@ -35,6 +35,11 @@ class App extends Component {
   }
 
   createDevice_click() {
+    this.listDevice.forEach(item => {
+      if (item) {
+        item.stopAnimation();
+      }
+    })
     if (this.state.numberDevice < 16) {
       this.data.numberDevice = parseInt(this.state.numberDevice, 10);
     } else {
