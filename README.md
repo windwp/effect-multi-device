@@ -1,4 +1,4 @@
-Demo for create text effect  using pixi.js and react.
+Demo for create text effect using pixi.js and react.
 
 https://windwp.github.io/effect-multi-device/
 
